@@ -1,0 +1,15 @@
+[[media]]
+file = "rally.png"
+name = "Spin across the court"
+
+[[media]]
+file = "rally.json.gz"
+name = "Angles in motion"
+
+[[media]]
+file = "title.png"
+name = "Make every angle count"
+
+[[media]]
+file = "versus.png"
+name = "A local rivalry"

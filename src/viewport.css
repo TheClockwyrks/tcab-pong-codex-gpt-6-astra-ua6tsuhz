@@ -1,0 +1,9 @@
+/* Keep the supplied page's responsive layout authoritative. The engine's
+   intrinsic-size fallback writes inline pixel dimensions after a frame whose
+   CSS size equals its backing store. These rules prevent that fallback from
+   pinning a viewport-sized canvas, while the engine still owns its backing
+   resolution, device-pixel ratio, and logical fit. */
+#stage {
+  width: 100vw !important;
+  height: 100vh !important;
+}
